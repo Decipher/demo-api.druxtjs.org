@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54bd9c648ade09f2f4648c54be875dd7",
+    "content-hash": "1d26184766c3023b7a37a179b1b83983",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -2002,7 +2002,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Decipher/druxt_drupal",
-                "reference": "bc5016b11140a5a4f3778d957b28636076b14b5c"
+                "reference": "70c233dd630cdfd572d33e91f3cab95266226f49"
             },
             "type": "drupal-module"
         },
