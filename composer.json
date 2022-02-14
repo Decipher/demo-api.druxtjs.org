@@ -5,8 +5,17 @@
     "license": "GPL-2.0+",
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/druxt/druxt_drupal"
+            "type": "package",
+            "package": {
+                "name": "drupal/druxt",
+                "version": "dev-3264181",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://github.com/Decipher/druxt_drupal",
+                    "type": "git",
+                    "reference": "bc5016b11140a5a4f3778d957b28636076b14b5c"
+                }
+            }
         },
         {
             "type": "composer",
@@ -20,12 +29,15 @@
         "drupal/anonymous_redirect": "2.2.0-rc1",
         "drupal/core-project-message": "9.3.2",
         "drupal/core-recommended": "9.3.2",
-        "drupal/druxt": "1.1.1",
+        "drupal/decoupled_router": "^2.0",
+        "drupal/druxt": "dev-3264181",
         "drupal/gin": "3.0.0-alpha33",
         "drupal/gin_login": "1.0.0",
         "drupal/gin_toolbar": "1.0.0-beta14",
         "drupal/jsonapi_hypermedia": "1.6.0",
-        "drupal/jsonapi_menu_items": "1.2.1",
+        "drupal/jsonapi_menu_items": "^1.0.0",
+        "drupal/jsonapi_node_preview": "^1.0@beta",
+        "drupal/jsonapi_views": "^1.0",
         "drupal/lagoon_logs": "2.0.1",
         "drupal/search_api_lunr": "2.0.1",
         "drupal/simple_oauth": "5.0.5",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27b342da28b20e7747630a910f9abe5f",
+    "content-hash": "54bd9c648ade09f2f4648c54be875dd7",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1998,29 +1998,13 @@
         },
         {
             "name": "drupal/druxt",
-            "version": "1.1.1",
+            "version": "dev-3264181",
             "source": {
                 "type": "git",
-                "url": "https://github.com/druxt/druxt_drupal",
-                "reference": "9622b878d48d0ff69b2b784160252778854edaf5"
+                "url": "https://github.com/Decipher/druxt_drupal",
+                "reference": "bc5016b11140a5a4f3778d957b28636076b14b5c"
             },
-            "require": {
-                "drupal/decoupled_router": "^2.0",
-                "drupal/jsonapi_menu_items": "^1.0.0",
-                "drupal/jsonapi_views": "^1.0@beta"
-            },
-            "type": "drupal-module",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Stuart Clark",
-                    "email": "stuart@realityloop.com"
-                }
-            ],
-            "description": "A bridge between frameworks, Drupal in the back, Nuxt.js in the front.",
-            "time": "2021-10-25T00:05:19+00:00"
+            "type": "drupal-module"
         },
         {
             "name": "drupal/gin",
@@ -2328,6 +2312,50 @@
             ],
             "support": {
                 "source": "https://git.drupalcode.org/project/jsonapi_menu_items"
+            }
+        },
+        {
+            "name": "drupal/jsonapi_node_preview",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/jsonapi_node_preview.git",
+                "reference": "1.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_node_preview-1.0.0-beta1.zip",
+                "reference": "1.0.0-beta1",
+                "shasum": "f44a9f6d8275cb8e43b333218bc37ed00889b5e6"
+            },
+            "require": {
+                "drupal/core": "^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta1",
+                    "datestamp": "1643152565",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alberto-silva",
+                    "homepage": "https://www.drupal.org/user/1194228"
+                }
+            ],
+            "description": "Exposes node previews in JSON:API.",
+            "homepage": "https://www.drupal.org/project/jsonapi_node_preview",
+            "support": {
+                "source": "https://git.drupalcode.org/project/jsonapi_node_preview"
             }
         },
         {
@@ -11669,7 +11697,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/druxt": 20,
+        "drupal/jsonapi_node_preview": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
